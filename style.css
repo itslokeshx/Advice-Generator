@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:hsl(218, 23%, 16%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:38%;
+    height:45%;
+    background-color:  hsl(217, 19%, 24%) ;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px #1d1d1d);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#lone{
+    color:hsl(150, 100%, 66%);
+    font-size:16px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    letter-spacing:4px;
+    margin-top: 5%;
+
+}
+#ltwo{
+    color:hsl(193, 38%, 86%) ;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5em;
+    font-weight:bolder;
+    letter-spacing: 1px; 
+    width:85%;
+    height:40%;
+    margin-top: 2%;  
+    text-align: center;
+}
+.round{
+    width:55px;
+    height:55px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%) ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 9%;
+    border:none;
+    cursor:pointer;
+}
+#bar{
+width:80%;
+}
+#round:hover{
+    cursor:progress;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        width:85%;
+        height:45%;
+        background-color:  hsl(217, 19%, 24%) ;
+        border-radius: 20px;
+        filter: drop-shadow(5px 5px 10px #1d1d1d);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    #lone{
+        color:hsl(150, 100%, 66%);
+        font-size:14px;
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        letter-spacing:4px;
+        margin-top: 5%;
+    
+    }
+    #ltwo{
+        color:hsl(193, 38%, 86%) ;
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size:1.35em;
+        font-weight:bolder;
+        letter-spacing: 1px; 
+        width:85%;
+        height:40%;
+        margin-top: 2%;  
+    }
+    .round{
+        width:55px;
+        height:55px;
+        border-radius: 100%;
+        background-color: hsl(150, 100%, 66%) ;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 9%;
+        border:none;
+    }
+    #bar{
+    width:80%;
+    position: relative;
+        top:6%;
+    }
+}
