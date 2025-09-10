@@ -1,2 +1,2 @@
 # Random Advice Generator!
-site link: https://itslokeshx.github.io/frontendmentor3/
+site link: https://itslokeshx.github.io/Advice-Generator/
